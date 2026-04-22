@@ -265,7 +265,7 @@ CHART_LAYOUT = dict(
 col_h1, col_h2 = st.columns([3, 1])
 with col_h1:
     st.markdown('<span class="tag">Executive Dashboard · v2.1</span>', unsafe_allow_html=True)
-    st.markdown("# UCI Customer Analytics")
+    st.markdown("# Victor Hautière-Rey : Final Assignment")
     st.markdown(f'<span style="color:#6b6b8a;font-size:0.8rem;">{month_range[0]} → {month_range[1]} &nbsp;·&nbsp; {len(fdf):,} transactions filtered</span>', unsafe_allow_html=True)
 with col_h2:
     now = datetime.now().strftime("%d %b %Y · %H:%M")
